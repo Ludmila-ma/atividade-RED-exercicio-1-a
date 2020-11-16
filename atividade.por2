@@ -1,0 +1,16 @@
+programa
+{
+	inclua biblioteca Calendario --> cal
+	/*Escreva outro programa que calcule a quantidade de dias que faltam
+	 * para o ano acabar;
+	 */
+	funcao inicio()
+	{
+		inteiro dia_mes_atual
+		dia_mes_atual = 0
+		dia_mes_atual = cal.dia_mes_atual()
+		escreva("Informe a data de hoje em dias")
+		leia(dia_mes_atual)
+		escreva(" faltam ", 365 - dia_mes_atual, " dias para o ano acabar")
+	}
+}
