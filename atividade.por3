@@ -1,0 +1,23 @@
+programa
+{
+	/*Fortinite é um jogo tipo Truck Simulator.Nesse
+	 * jogo é possível comprar itens para o seu personagem.
+	 * Escreva um algoritmo que some o valor de dois itens
+	 * que aparece nas figuras ao lado e mostre o resultado em 
+	 * v-bucks;
+	 */
+	
+	funcao inicio()
+	{
+		real preco_arma 
+		real preco_skin
+		
+		escreva("Quanto vale a arma?")
+		leia(preco_arma)
+		escreva("Quanto vale a Skin?")
+		leia(preco_skin)
+		
+		escreva("A arma e a Skin juntas ficam ", preco_arma + preco_skin , " v-bucks")
+		
+	}
+}
